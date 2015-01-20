@@ -28,11 +28,13 @@ body {
 	background-image: url(../images/background1.png);
 	background-position: top left;
 	background-repeat: repeat;
+	background-attachment:fixed;
 	text-align: center;
 }
 header {
 	position: relative;
 	background-image: url(../images/banner.png);
+	background-size: contain;
 	margin: 0 auto 0 auto;
 	height: 310px;
 	width: 1000px;
@@ -82,9 +84,19 @@ nav li a:hover{
 	border-left:2px solid #815444;
 }
 main {
-	width: 1000px;
+	width: 988px;
 	margin: 0 auto 0 auto;
+	padding: 6px;
 	text-align: left;
+	background-color: #FFFFFF;
+	border: 3px solid #401f1f;
+	
+}
+main ul{
+	list-style-position: inside;
+}
+footer{
+	text-align: center;
 }
 
 /* Remove text-shadow in selection highlight: h5bp.com/i */
@@ -300,4 +312,7 @@ li {
 .map {
 	float: right;
 	border: 3px solid #401f1f;
+}
+.frontpagepic img{
+	background-size
 }
