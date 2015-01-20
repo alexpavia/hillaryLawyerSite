@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+	<title>Hillary Pavia, Esq.</title>
+	
+	<meta name="description" content="">
+	
+  <!-- Mobile-friendly -->
+	<meta name="viewport" content="width=device-width">
+	
+	<link href="css/main.css" rel="stylesheet" media="all">
+	
+</head>
+<body>
+ 
+	<header>
+		
+		<nav>
+			<ul class="navbar">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="legalServices.html">Legal Services</a></li>
+				<li><a href="aboutHillary.html">About Hillary</a></li>
+				<li><a href="contactHillary.html">Contact Hillary</a></li>
+			</ul>	
+		</nav>
+		
+	</header>
+	<main>
+		<h1>Contact Hillary</h1>
+		<!-- Map embed including JS-->
+		<div class="map">
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+		<div style="overflow:hidden;height:400px;width:500px;">
+		<div id="gmap_canvas" style="height:400px;width:500px;"></div>
+		<style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+		<a class="google-map-code" href="http://www.trivoo.net/gutscheine/strato/" id="get-map-data">strato gutschein</a>
+		</div>
+		<script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(40.525899,-111.877118),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.525899, -111.877118)});infowindow = new google.maps.InfoWindow({content:"<b>Tycksen &amp; Shattuck LLC</b><br/>12401 South 450 East<br/>84020 Draper, UT" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+		</div>
+		
+		<h3>Email, Phone, and Fax</h3>
+		<p><a href="mailto:hillary@tyshlaw.com">hillary@tyshlaw.com</a>
+		<br>Tel: 801-748-4081
+		<br>Fax: 801-748-4087</p>
+		
+		<h3>Address</h3>
+		
+		<p>Tycksen & Shattuck, LLC
+		<br>12401 S 450 E, Unit E1
+		<br>Draper, Utah 84020</p>
+		
+		<h3>Social Media</h3>
+		
+		<p>Facebook - Coming soon!
+		<br>LinkedIn - Coming soon!
+		<br>Twitter - Coming soon!
+		</p>
+ 
+	</main>
+	
+	
+	<footer>
+ 
+		<div class="footsection">
+			<ul class="footlinks">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="legalServices.html">Legal Services</a></li>
+				<li><a href="aboutHillary.html">About Hillary</a></li>
+				<li><a href="contactHillary.html">Contact Hillary</a></li>
+			</ul>
+		</div>
+ 
+		<small>Copyright &copy; <time datetime="2015">2015</time></small>
+		
+	</footer>
+</body>
+</html>
